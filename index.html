@@ -9,10 +9,16 @@
     <link rel="stylesheet" href="cssreset/reset.css">
    <link rel="stylesheet" href="grid-system/grid.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script>const setHeight = function() {
+    const currentHeight = window.innerHeight;
+    document.body.style.height = `${currentHeight}px`;
+  }
+  window.addEventListener("resize", setHeight);
+  setHeight();</script>
    <script src="https://kit.fontawesome.com/d4bddd1345.js" crossorigin="anonymous"></script>
 </head>
 <section>
-
+<body class="background-container">
   <header>
     <nav>
       <button><a href="#">خانه</a></button>
