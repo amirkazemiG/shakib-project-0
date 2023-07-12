@@ -1,0 +1,113 @@
+@import "../reset.css";
+@import "../grid.css";
+@font-face{
+    font-family: vazir;
+    src: url(../fonts/Vazir-Medium.eot) format(eot);
+    font-family: sahel;
+    src: url(../fonts/Sahel.woff2) format(eot);
+}
+body{
+    font-family: vazir;
+}
+/* start navigation section */
+header nav button{
+    background-color: #3C486B;
+    padding: 10px;
+    border-radius: 30%;
+    /* adjust the border-radius */
+    color: white;
+    margin-inline: 20px;
+    margin-top: 10px;
+width: 10%;
+transition: 0.4s linear;
+}
+header nav{
+    text-align: center;
+    background-color: #F9D949;
+    min-height: 70px;
+}
+header nav button:hover{
+    transform: translateY(10px);
+    background-color: white;
+    color: black;
+}
+/* end navigation section */
+
+
+
+/* start blog section */
+
+.female-lawyer-icon{
+    height: 30px;
+    width: 30px;
+  ;
+ margin-left: 10px;
+}
+.name1{
+margin-top: 3px;
+word-spacing: 1px;
+font-size: 19px;
+
+
+}
+.white-marriage{
+    filter:brightness(90%);
+}
+.blog-section{
+    font-family: sahel;
+    
+}
+.blog-title{
+    margin-top: 10px;
+    font-weight: bold;
+    /* border: 2px solid orange; */
+   font-size: 18px;
+
+}
+.blog-parent{
+    border: 1px gray solid;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px black;
+    margin-top: 30px;
+    transition:0.6s ;
+    margin-bottom: 50px;
+}
+.blog-parent:hover{
+    transform: scale(1.1);
+ 
+}
+
+/* make the vaghf img the same height as the internet scam img */
+/* end blog section */
+
+
+
+.phone-number,.office-number,.whatsapp{text-align: left;}.instagram{text-align: center;}.time-for-work-online{text-align: left;}footer i {font-size: 20px;font-weight: 500;padding-left: 10px;padding-top: 10px;color: #F9E2AF;}footer img{height: 24px;width: 24px;margin-left: -3px;vertical-align: -4px;}footer span{color: white;font: italic 400 17px 'Schibsted Grotesk', sans-serif;}footer p,.time-for-work-online span{color: yellow;}footer .instagram i{padding: 0;}address{color: white;margin-right: 5px;}footer{min-height: 30%;min-width: 100%;position: relative;bottom: 0;background-color: #009FBD;font-family: vazir!important;}.time-for-work-online span{font-family: vazir!important;}h1,h2,h3,h4,.benefit-arrows span{color: black;}.benefit-arrows i{font-size: 25px;vertical-align: -5px;}@media screen and (max-width:1100px){}@media screen and (max-width:405px){footer{left: 0;right: 0;}}@media screen and (max-width:599px){#info-h3{animation-name: none;}}.line{background-color: gold;}@media screen and (max-width:1115px){.whatsapp{margin-top: -24px;}}@media screen and (max-width:767px){.whatsapp{margin-top: unset;}}footer span::selection{background-color: red;color: white;}footer i::selection{background-color: red;}footer p::selection{background-color: red;}.justice{float: left;height: 25%;width: 25%;object-fit: contain;margin-top: -140px;border-radius: 100%;border: 10px solid yellow;}body{overflow-x: hidden;}h1{clear: left;font-size: 30px;}@media screen and (max-width:580px){h1,h2,.paragraphs{color: black;}#info-h3{background-color: #1D81F7;}}header nav button:hover{transform: translateY(10px);}@media screen and(max-width:1100px){body{overflow: hidden;}}@media screen and (max-width:610px){.justice-parent{display: block;text-align: center;margin-top: 150px;}.justice{float: unset!important;}}
+.old-phone{
+    height: 24px;
+    width: 24px;
+    margin-left: -3px;
+    vertical-align: -4px;}
+  html{
+    scroll-behavior: smooth;
+  }
+  footer{
+    width: 100%!important;
+  }
+ 
+  .whatsapp{
+    margin-top: -25px;
+  }
+
+@media screen and (max-width:700px){
+    header nav button{
+        min-width: 15%;
+      
+    }
+}
+@media screen and (max-width:400px){
+    header nav button{
+        min-width: 20%;
+      
+    }
+}
